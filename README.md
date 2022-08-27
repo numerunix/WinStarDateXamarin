@@ -7,7 +7,7 @@ It allows to calculate the stellar date froma an actual gregorian date, it saves
 
 # The new fashion google way
 
-[![google](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.winstardate&gl=EN)
+[![google](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.winstardate&gl=IT)
 
 # The old fashion compiled way
 
