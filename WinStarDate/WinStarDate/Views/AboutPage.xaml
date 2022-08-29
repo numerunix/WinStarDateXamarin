@@ -32,7 +32,7 @@
                 <Label Text="Informazioni" FontSize="Title" />
                 <Label Text="Autore: Giulio Sorrentino" />
                 <Label Text="Licenza: GPL v3 o, secondo il tuo parere, qualsiasi versione successiva." />
-                <Label Text="Si ringrazia la camionista betatester di IOS Francesca Milano" />
+                <Label Text="Si ringraziano Annachiara, una mia cara amica, e Francesca Milano e Giovanna Minsitieri: le betatester di UWP per xbox" />
                 <Button Margin="0,10,0,0" Text="Informazioni"
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"

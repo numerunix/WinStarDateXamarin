@@ -18,7 +18,7 @@
             </Grid.ColumnDefinitions>
             <Label x:Name="tbdata" Grid.Row="0" Grid.Column="0" Text="Select the date: " TextColor="White"/>
             <DatePicker x:Name="data" Grid.Row="0" Grid.Column="1" TextColor="White"/>
-            <Button x:Name="calcola" Clicked="calcola_Click" Text="Calcola" Grid.Row="1" Grid.Column="1" TextColor="White"/>
+            <Button x:Name="calcola" Clicked="calcola_Click" Text="Calculate" Grid.Row="1" Grid.Column="1" TextColor="White"/>
             <Label x:Name="risultato" Text="" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" TextColor="White"/>
         </Grid>
     </ContentPage.Content>
