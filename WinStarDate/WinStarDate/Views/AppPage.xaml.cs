@@ -15,7 +15,15 @@ namespace WinStarDate.Views
         public AppPage()
         {
             InitializeComponent();
-            data.Date = DateTime.Parse(Preferences.Get("Data", "1968-09-08"));
+            while (true)
+                try
+                {
+                    data.Date = DateTime.Parse(Preferences.Get("Data", "1968-09-08"));
+                    break;
+                } catch (FormatException e)
+                {
+                    Preferences.Clear();
+                }
         }
         private void calcola_Click(object sender, EventArgs e)
         {
@@ -23,7 +31,7 @@ namespace WinStarDate.Views
             String s = "" + i;
             if (s.Length == 1)
                 s = "0" + s;
-            risultato.Text = "Selected Stellar Date is: "+data.Date.Date.ToUniversalTime().ToString("yy") + data.Date.Date.ToUniversalTime().ToString("MM") + "." + s;
+            risultato.Text = $"{Resources["srisultato"]} {data.Date.Date.ToUniversalTime().ToString("yy")}{data.Date.Date.ToUniversalTime().ToString("MM")}.{s}";
             Preferences.Set("Data", data.Date.ToString());
 
         }
